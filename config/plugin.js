@@ -7,3 +7,8 @@ module.exports = {
   //   enable: true,
   // }
 };
+
+exports.mongoose = {
+  enable: true,
+  package: 'egg-mongoose',
+};

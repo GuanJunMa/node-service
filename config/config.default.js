@@ -23,6 +23,24 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
+  config.security = {
+    csrf: {
+      enable: false,
+    }
+  };
+
+  // 关于mongodb
+  config.mongoose = {
+    client: {
+      url: 'mongodb://127.0.0.1:52082/test',
+      options: {
+        autoReconnect: true,
+        reconnectTries: Number.MAX_VALUE,
+        bufferMaxEntries: 0
+      },
+    },
+  };
+
   return {
     ...config,
     ...userConfig,
