@@ -31,6 +31,7 @@ class trademarkService extends Service {
     console.log('###########')
     console.log('###########', ctx.model)
     const chickuser = await ctx.model.Admin.ModelUser.findOne({ username: body.username, status: 1 });
+    console.log('###########', chickuser)
     if (chickuser && chickuser.username !== body.username) {
       ctx.throw('当前账号已注册', 200);
     }

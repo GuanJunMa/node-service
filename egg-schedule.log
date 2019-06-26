@@ -1,0 +1,48 @@
+2019-06-25 15:44:20,883 INFO 41658 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45939121ms at 2019-06-26 04:30:00.004
+2019-06-25 15:44:20,883 INFO 41658 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29739117ms at 2019-06-26 00:00:00.000
+2019-06-25 15:44:20,884 INFO 41658 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29740117ms at 2019-06-26 00:00:01.001
+2019-06-25 15:44:20,799 INFO 41666 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-25 15:44:20,799 INFO 41666 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-25 15:44:20,799 INFO 41666 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-25 16:27:45,281 INFO 43242 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-25 16:27:45,281 INFO 43242 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-25 16:27:45,281 INFO 43242 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-25 22:13:39,809 INFO 53344 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22580195ms at 2019-06-26 04:30:00.004
+2019-06-25 22:13:39,809 INFO 53344 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6380191ms at 2019-06-26 00:00:00.000
+2019-06-25 22:13:39,810 INFO 53344 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6381191ms at 2019-06-26 00:00:01.001
+2019-06-25 22:13:39,652 INFO 53345 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-25 22:13:39,652 INFO 53345 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-25 22:13:39,652 INFO 53345 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-25 23:22:58,703 INFO 55744 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18421301ms at 2019-06-26 04:30:00.004
+2019-06-25 23:22:58,703 INFO 55744 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2221297ms at 2019-06-26 00:00:00.000
+2019-06-25 23:22:58,704 INFO 55744 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2222297ms at 2019-06-26 00:00:01.001
+2019-06-25 23:22:58,602 INFO 55752 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-25 23:22:58,602 INFO 55752 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-25 23:22:58,602 INFO 55752 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-25 23:59:59,922 INFO 55744 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400082ms at 2019-06-27 00:00:00.004
+2019-06-25 23:59:59,919 INFO 55752 [Job#15614783999174926366110899931] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-06-25 23:59:59,927 INFO 55752 [Job#15614783999174926366110899931] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 7ms
+2019-06-26 00:00:00,919 INFO 55752 [Job#15614784009184926376116840861] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-06-26 00:00:00,925 INFO 55752 [Job#15614784009184926376116840861] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms
+2019-06-26 00:00:00,922 INFO 55744 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400082ms at 2019-06-27 00:00:01.004
+2019-06-26 21:10:28,483 INFO 81287 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26371520ms at 2019-06-27 04:30:00.003
+2019-06-26 21:10:28,484 INFO 81287 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 10171516ms at 2019-06-27 00:00:00.000
+2019-06-26 21:10:28,484 INFO 81287 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10172516ms at 2019-06-27 00:00:01.000
+2019-06-26 21:10:28,382 INFO 81294 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-26 21:10:28,382 INFO 81294 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-26 21:10:28,382 INFO 81294 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-26 22:34:03,322 INFO 84720 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21356681ms at 2019-06-27 04:30:00.003
+2019-06-26 22:34:03,322 INFO 84720 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 5156678ms at 2019-06-27 00:00:00.000
+2019-06-26 22:34:03,323 INFO 84720 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 5157678ms at 2019-06-27 00:00:01.001
+2019-06-26 22:34:03,240 INFO 84727 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-26 22:34:03,240 INFO 84727 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-26 22:34:03,240 INFO 84727 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-27 00:11:05,797 INFO 88858 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15534207ms at 2019-06-27 04:30:00.004
+2019-06-27 00:11:05,798 INFO 88858 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85734203ms at 2019-06-28 00:00:00.001
+2019-06-27 00:11:05,799 INFO 88858 [Timer] /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85735202ms at 2019-06-28 00:00:01.001
+2019-06-27 00:11:05,704 INFO 88861 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-27 00:11:05,704 INFO 88861 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-27 00:11:05,704 INFO 88861 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-06-27 00:37:12,572 INFO 89892 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-06-27 00:37:12,572 INFO 89892 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-06-27 00:37:12,572 INFO 89892 [egg-schedule]: register schedule /Users/guanjunma/Documents/workspace/node-service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
