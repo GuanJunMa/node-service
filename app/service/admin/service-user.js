@@ -26,12 +26,10 @@ class trademarkService extends Service {
   // ======================================================================  注册/更新  ======================================================================
   async register(body, params) {
     const { ctx } = this;
+    // 对字符串进行 XSS 过滤
     body.username = ctx.helper.shtml(body.username);
     // 判断账号是否已注册
-    console.log('###########')
-    console.log('###########', ctx.model)
     const chickuser = await ctx.model.Admin.ModelUser.findOne({ username: body.username, status: 1 });
-    console.log('###########', chickuser)
     if (chickuser && chickuser.username !== body.username) {
       ctx.throw('当前账号已注册', 200);
     }
@@ -46,16 +44,6 @@ class trademarkService extends Service {
       return await ctx.model.Admin.ModelUser.findOneAndUpdate({ _id }, body, { new: true });
     }
     // =================================== 创建 ===================================
-    // 判断邀请码可靠性
-    // if (body.invitCode.length !== 12 && body.invitCode.length !== 24) {
-    //   ctx.throw('当前邀请码无效', 200);
-    // }
-
-    // const invit_id = this.app.mongoose.Types.ObjectId(body.invitCode);
-    // const chickinvitCode = await ctx.model.Admin.ModelUser.findOne({ _id: invit_id });
-    // if (!chickinvitCode.username) {
-    //   ctx.throw('当前邀请码无效', 200);
-    // }
     const user = await ctx.model.Admin.ModelUser.create(body);
     return {
       token: await ctx.service.common.actionToken.admin(user._id),
