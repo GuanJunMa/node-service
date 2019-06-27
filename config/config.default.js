@@ -32,7 +32,7 @@ module.exports = appInfo => {
   // 关于mongodb
   config.mongoose = {
     client: {
-      url: 'mongodb://127.0.0.1:52082/test',
+      url: 'mongodb://127.0.0.1:27017/test',
       options: {
         autoReconnect: true,
         reconnectTries: Number.MAX_VALUE,

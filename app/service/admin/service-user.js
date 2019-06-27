@@ -47,18 +47,18 @@ class trademarkService extends Service {
     }
     // =================================== 创建 ===================================
     // 判断邀请码可靠性
-    if (body.invitCode.length !== 12 && body.invitCode.length !== 24) {
-      ctx.throw('当前邀请码无效', 200);
-    }
+    // if (body.invitCode.length !== 12 && body.invitCode.length !== 24) {
+    //   ctx.throw('当前邀请码无效', 200);
+    // }
 
-    const invit_id = this.app.mongoose.Types.ObjectId(body.invitCode);
-    const chickinvitCode = await ctx.model.Admin.ModelUser.findOne({ _id: invit_id });
-    if (!chickinvitCode.username) {
-      ctx.throw('当前邀请码无效', 200);
-    }
+    // const invit_id = this.app.mongoose.Types.ObjectId(body.invitCode);
+    // const chickinvitCode = await ctx.model.Admin.ModelUser.findOne({ _id: invit_id });
+    // if (!chickinvitCode.username) {
+    //   ctx.throw('当前邀请码无效', 200);
+    // }
     const user = await ctx.model.Admin.ModelUser.create(body);
     return {
-      token: await ctx.service.common.sevActionToken.admin(user._id),
+      token: await ctx.service.common.actionToken.admin(user._id),
       user: {
         user_name: user.username,
         jurisdiction: user.jurisdiction,

@@ -3,7 +3,7 @@ module.exports = app => {
   const trademarkSchema = new mongoose.Schema({
     username: { type: String, required: true }, // 用户名称
     password: { type: String, required: true }, // 用户密码
-    invitCode: { type: String, required: true }, // 邀请码
+    // invitCode: { type: String, required: true }, // 邀请码
     nickname: { type: String }, // 昵称
     introduction: { type: String }, // 简介
     phoneNumber: { type: Number }, // 手机号
