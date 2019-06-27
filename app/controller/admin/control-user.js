@@ -29,7 +29,8 @@ class UserController extends Controller {
       return ctx.throw('密码与再次输入的密码不一致', 200);
     }
     // ctx.validate(this.userTransfer, body);
-    // body.password = await ctx.genHash(body.password);
+    // 密文保存密码 genHash 为 egg-bcrypt 提供的方法
+    body.password = await ctx.genHash(body.password);
     const data = await ctx.service.admin.serviceUser.register(body);
     ctx.helper.success({ data });
   }
