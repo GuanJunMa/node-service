@@ -27,6 +27,6 @@ module.exports = {
   // 工具，校验 格式化 请求体
   validate: {
     enable: true,
-    package: 'egg-validation',
+    package: 'egg-validate',
   }
 };

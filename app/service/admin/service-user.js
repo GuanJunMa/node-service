@@ -15,7 +15,7 @@ class trademarkService extends Service {
     }
     user = JSON.parse(JSON.stringify(user));
     return {
-      token: await ctx.service.common.sevActionToken.admin(user),
+      token: await ctx.service.common.actionToken.admin(user),
       user: {
         user_name: user.username,
         jurisdiction: user.jurisdiction,
