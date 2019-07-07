@@ -1,7 +1,7 @@
 
 const Service = require('egg').Service;
 
-class trademarkService extends Service {
+class userService extends Service {
   // ======================================================================  登录  ======================================================================
   async login(body) {
     const { ctx } = this;
@@ -80,4 +80,4 @@ class trademarkService extends Service {
   }
 }
 
-module.exports = trademarkService;
+module.exports = userService;
